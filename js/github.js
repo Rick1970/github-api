@@ -1,9 +1,10 @@
-function Repo(testRepo) {
-  this.repo = testRepo;
+var apiKey = require('./../.env').apiKey;
+
+function Repo() {
 }
 
-Repo.prototype.test=function(test) {
-  return test;
+Repo.prototype.testRepo = function() {
+  console.log("I am a repo object");
 };
 
 exports.getRepos = function(){
