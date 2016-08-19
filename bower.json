@@ -1,0 +1,17 @@
+{
+  "name": "github-api",
+  "description": "friday_project",
+  "main": "index.html",
+  "authors": [
+    "rick"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/Rick1970/github-api",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
