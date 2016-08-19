@@ -1,21 +1,21 @@
 var gulp = require("gulp"),
-browserify = require('browserify'),
-source = require('vinyl-source-stream'),
-concat = require('gulp-concat'),
-browserSync = require('browser-sync').create(),
-uglify = require('gulp-uglify'),
-utilities = require('gulp-util'),
-del = require('del'),
-jshint = require('gulp-jshint'),
-sass = require('gulp-sass'),
-sourcemaps = require('gulp-sourcemaps'),
-lib = require('bower-files')({
-  'overides': {
-    'bootstrap': {
-      'main': [
-        'less/bootstrap.less',
-        'dist/css/bootstrap.css',
-        'dist/js/bootstrap.js'
+    browserify = require('browserify'),
+    source = require('vinyl-source-stream'),
+    concat = require('gulp-concat'),
+    browserSync = require('browser-sync').create(),
+    uglify = require('gulp-uglify'),
+    utilities = require('gulp-util'),
+    del = require('del'),
+    jshint = require('gulp-jshint'),
+    sass = require('gulp-sass'),
+    sourcemaps = require('gulp-sourcemaps'),
+    lib = require('bower-files')({
+      'overides': {
+        'bootstrap': {
+          'main': [
+            'less/bootstrap.less',
+            'dist/css/bootstrap.css',
+            'dist/js/bootstrap.js'
       ]
     }
   }
