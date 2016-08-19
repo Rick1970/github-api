@@ -7,6 +7,6 @@ $(document).ready(function() {
     $('#name').val("");
     alert(name);
     var repoObject = new Repo();
-    repoObject.testRepo();
+    repoObject.getRepos();
   });
 });
