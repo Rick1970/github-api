@@ -9,7 +9,5 @@ $(document).ready(function() {
     var repoObject = new Repo();
     repoObject.getRepos(name);
     console.log(repoObject);
-  
-
   });
 });
