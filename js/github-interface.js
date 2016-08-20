@@ -8,5 +8,8 @@ $(document).ready(function() {
     alert(name);
     var repoObject = new Repo();
     repoObject.getRepos(name);
+    console.log(repoObject);
+  
+
   });
 });
