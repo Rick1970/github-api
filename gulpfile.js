@@ -10,7 +10,7 @@ var gulp = require("gulp"),
     sass = require('gulp-sass'),
     sourcemaps = require('gulp-sourcemaps'),
     lib = require('bower-files')({
-      'overides': {
+      'overrides': {
         'bootstrap': {
           'main': [
             'less/bootstrap.less',

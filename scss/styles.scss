@@ -1,13 +1,21 @@
 
 
-#cool {
-  width: 100%;
-  position:absolute;
-  left: 0;
-  font-size: 10em;
+.jumbotron {
+  // width: 100%;
+  // position:absolute;
+  // left: 0;
+  font-size: 1.5em;
   text-align: center;
-  // background-image: url("http://designrfix.com/wp-content/uploads/2013/01/Patterns-free-2013-jan-8.jpg");
+  background-image: url("http://designrfix.com/wp-content/uploads/2013/01/Patterns-free-2013-jan-8.jpg");
   color: white;
+}
+
+#padding {
+  padding-top: 50px;
+}
+
+.color {
+  color: black;
 }
 
 body {
@@ -17,14 +25,14 @@ body {
 
 .middle {
   text-align: center;
-  margin-top: 100px;
+
 }
 
 .block-hide{
   display: none;
 }
 
-ol {
+ul {
   color: white;
 }
 
