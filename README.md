@@ -12,7 +12,7 @@ _User inputs github username into the search field, and pushes the submit button
 
 _File can be cloned from Github @ [https://github.com/Rick1970/github-api].
 Created with Node JS, npm, and bower, on the atom text editor. To run:
-
+Clone repo
 Install node.js.
 Install npm.
 Run npm install command to add the necessary packages listed in the package.json file.
